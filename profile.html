@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <title>Profiel - Ouderavond</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <!-- navbar begint hier -->
+    <header>
+            <img class="logo" src="images/logo.png" alt="logo">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="index.html">Overzicht</a></li>
+                    <li><a href="profile.html" class="underline">Profiel</a></li>
+                    <li><a href="contact.html">Gegevens</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="cta">Logout</a>
+        </header>
+        <!-- navbar eindigt hier -->
+    <div class="profile">
+        <img src="images/logo.png" alt="foto" id="profile_picture">
+        <h1>Matthew Groenendijk</h1>
+        <form action="GET">
+            <div class="email">
+                <label>Email</label><input type="email" name="email" id="email" placeholder="83238@glr.nl"> 
+            </div>
+            <div class="wachtwoord">
+                <label>Wachtwoord</label><input type="password" name="wachtwoord" id="wachtwoord" placeholder="*********">
+            </div>
+            <input type="submit" id="submit" value="Wijziging uitvoeren">
+        </form>
+    </div>
+</body>
+</html>

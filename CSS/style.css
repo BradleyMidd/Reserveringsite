@@ -1,0 +1,70 @@
+body {
+	background-color: #FFFFFF;
+}
+
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin-left: 10%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+	color: #000000;
+	
+}
+
+.inloggentext{
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.loginbutton{
+	background-color: #8FE406;
+	font-size: 20px;
+	margin-left: 35%;
+	width: 30%;
+	border-radius: 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.loginbutton h2{
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.siteinfo {
+	position: relative;
+	height: auto;
+    width: 80%;
+	margin: auto;
+}
+
+.vaklinks {
+	position: relative;
+	height: 100%;
+    width: 100%;
+	background-color: #FFFFFF;
+	float: left;
+    color: #000000;
+	overflow-y: auto;
+	padding: 20px;
+}
+
+.vaklinks>img{
+    margin: 10px;
+    float: right;
+}
+
+.vaklinks>p{
+    margin: 10px;
+}
+
+.box {
+	margin-top: 5%;
+	margin-left: 26.5%;
+	width: 45%;
+}
+
+.passforgot {
+	margin-left: 10%
+}
